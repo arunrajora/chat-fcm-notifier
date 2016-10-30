@@ -1,0 +1,27 @@
+{
+  "name": "Digits-To-Firebase",
+  "version": "0.2.0",
+  "author": "Arun Rajora",
+  "description": "A simple server to notify devices if an update is available. it uses fcm to notify updates.",
+  "contributors": [
+    {
+      "name": "Arun Rajora"
+    }
+  ],
+  "main": "./server.js",
+  "keywords": [
+    "firebase",
+    "fcm",
+    "chat"
+  ],
+  "dependencies": {
+    "express": "~3.1.0",
+    "firebase": "^3.4.1",
+    "request": "^2.76.0"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  }
+}
